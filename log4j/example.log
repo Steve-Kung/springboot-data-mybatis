@@ -1,0 +1,226 @@
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG SpringContextShutdownHook druid.sql.Connection - {conn-10001} closed
+DEBUG SpringContextShutdownHook druid.sql.Connection - {conn-10002} closed
+DEBUG SpringContextShutdownHook druid.sql.Connection - {conn-10003} closed
+DEBUG SpringContextShutdownHook druid.sql.Connection - {conn-10004} closed
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10001} connected
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10002} connected
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10003} connected
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10004} connected
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10005} connected
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10005, stmt-20000} created
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10005, stmt-20000, rs-50000} query executed. 220.1989 millis. select * from student
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10005, stmt-20000, rs-50000} open
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10005, stmt-20000, rs-50000} Header: [id, name, tid]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10005, stmt-20000, rs-50000} Result: [1, steve01, 1]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10005, stmt-20000, rs-50000} Result: [2, steve02, 1]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10005, stmt-20000, rs-50000} Result: [3, steve03, 1]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10005, stmt-20000, rs-50000} closed
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10005, stmt-20000} closed
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10001} connected
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10002} connected
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10003} connected
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10004} connected
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10005} connected
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10005, stmt-20000} created
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10005, stmt-20000, rs-50000} query executed. 108.0186 millis. select * from student
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10005, stmt-20000, rs-50000} open
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10005, stmt-20000, rs-50000} Header: [id, name, tid]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10005, stmt-20000, rs-50000} Result: [1, steve01, 1]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10005, stmt-20000, rs-50000} Result: [2, steve02, 1]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10005, stmt-20000, rs-50000} Result: [3, steve03, 1]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10005, stmt-20000, rs-50000} closed
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10005, stmt-20000} closed
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10005, stmt-20001} created
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10005, stmt-20001, rs-50001} query executed. 1.9113 millis. select * from student
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10005, stmt-20001, rs-50001} open
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10005, stmt-20001, rs-50001} Header: [id, name, tid]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10005, stmt-20001, rs-50001} Result: [1, steve01, 1]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10005, stmt-20001, rs-50001} Result: [2, steve02, 1]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10005, stmt-20001, rs-50001} Result: [3, steve03, 1]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10005, stmt-20001, rs-50001} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10005, stmt-20001} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-5 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10005, pstmt-20002} created. select * from student
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10005, pstmt-20002} Parameters : []
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10005, pstmt-20002} Types : []
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10005, pstmt-20002} executed. 1.4453 millis. select * from student
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50002} open
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50002} Header: [id, name, tid]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50002} Result: [1, steve01, 1]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50002} Result: [2, steve02, 1]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50002} Result: [3, steve03, 1]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50002} closed
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10005, pstmt-20002} clearParameters. 
+DEBUG http-nio-8080-exec-5 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10005, pstmt-20003} created. select * from student where id = ?
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10005, pstmt-20003} Parameters : [1]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10005, pstmt-20003} Types : [INTEGER]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10005, pstmt-20003} executed. 1.5998 millis. select * from student where id = ?
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10005, pstmt-20003, rs-50003} open
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10005, pstmt-20003, rs-50003} Header: [id, name, tid]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10005, pstmt-20003, rs-50003} Result: [1, steve01, 1]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10005, pstmt-20003, rs-50003} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10005, pstmt-20003} clearParameters. 
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20004} created. insert into student(name, tid) values(?,?)
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20004} Parameters : [stevekung01, 1]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20004} Types : [VARCHAR, INTEGER]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20004} executed. 4.2833 millis. insert into student(name, tid) values(?,?)
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20004, rs-50004} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20004, rs-50004} Header: [GENERATED_KEY]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20004, rs-50004} Result: [4]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20004, rs-50004} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20004} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20002} Parameters : []
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20002} Types : []
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20002} executed. 1.5212 millis. select * from student
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50005} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50005} Header: [id, name, tid]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50005} Result: [1, steve01, 1]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50005} Result: [2, steve02, 1]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50005} Result: [3, steve03, 1]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50005} Result: [4, stevekung01, 1]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50005} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20002} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20005} created. update student set name = ?, tid = ? where id = ?
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20005} Parameters : [steve04, 4, 4]
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20005} Types : [VARCHAR, INTEGER, INTEGER]
+ERROR http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20005} execute error. update student set name = ?, tid = ? where id = ?
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`mybatis`.`student`, CONSTRAINT `student_fk_tid` FOREIGN KEY (`tid`) REFERENCES `teacher` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3409)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3407)
+	at com.alibaba.druid.wall.WallFilter.preparedStatement_execute(WallFilter.java:620)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3407)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3407)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:498)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy62.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:287)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy69.updateStudent(Unknown Source)
+	at cn.stevekung.service.StudentServiceImpl.updateStudent(StudentServiceImpl.java:36)
+	at cn.stevekung.controller.MybatisController.updateStudent(MybatisController.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20005} clearParameters. 
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20005} closed
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10001} connected
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10002} connected
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10003} connected
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10004} connected
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} connected
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20000} created. update student set name = ?, tid = ? where id = ?
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [steve04, 1, 4]
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20000} Types : [VARCHAR, INTEGER, INTEGER]
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20000} executed. 8.1196 millis. update student set name = ?, tid = ? where id = ?
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} created. delete from student where id = ?
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} Parameters : [4]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} Types : [INTEGER]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} executed. 4.6073 millis. delete from student where id = ?
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10005, pstmt-20002} created. select * from student
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10005, pstmt-20002} Parameters : []
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10005, pstmt-20002} Types : []
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10005, pstmt-20002} executed. 18.4284 millis. select * from student
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50000} open
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50000} Header: [id, name, tid]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50000} Result: [1, steve01, 1]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50000} Result: [2, steve02, 1]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50000} Result: [3, steve03, 1]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10005, pstmt-20002, rs-50000} closed
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10005, pstmt-20002} clearParameters. 
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10005} pool-recycle
